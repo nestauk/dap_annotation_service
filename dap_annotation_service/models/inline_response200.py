@@ -28,45 +28,45 @@ class InlineResponse200(object):
                             and the value is json key in definition.
     """
     swagger_types = {
-        'context': 'InlineResponse200Context',
+        'xstate_context': 'InlineResponse200XstateContext',
         'progress': 'dict(str, str)'
     }
 
     attribute_map = {
-        'context': 'context',
+        'xstate_context': 'XstateContext',
         'progress': 'progress'
     }
 
-    def __init__(self, context=None, progress=None):  # noqa: E501
+    def __init__(self, xstate_context=None, progress=None):  # noqa: E501
         """InlineResponse200 - a model defined in Swagger"""  # noqa: E501
-        self._context = None
+        self._xstate_context = None
         self._progress = None
         self.discriminator = None
-        if context is not None:
-            self.context = context
+        if xstate_context is not None:
+            self.xstate_context = xstate_context
         if progress is not None:
             self.progress = progress
 
     @property
-    def context(self):
-        """Gets the context of this InlineResponse200.  # noqa: E501
+    def xstate_context(self):
+        """Gets the xstate_context of this InlineResponse200.  # noqa: E501
 
 
-        :return: The context of this InlineResponse200.  # noqa: E501
-        :rtype: InlineResponse200Context
+        :return: The xstate_context of this InlineResponse200.  # noqa: E501
+        :rtype: InlineResponse200XstateContext
         """
-        return self._context
+        return self._xstate_context
 
-    @context.setter
-    def context(self, context):
-        """Sets the context of this InlineResponse200.
+    @xstate_context.setter
+    def xstate_context(self, xstate_context):
+        """Sets the xstate_context of this InlineResponse200.
 
 
-        :param context: The context of this InlineResponse200.  # noqa: E501
-        :type: InlineResponse200Context
+        :param xstate_context: The xstate_context of this InlineResponse200.  # noqa: E501
+        :type: InlineResponse200XstateContext
         """
 
-        self._context = context
+        self._xstate_context = xstate_context
 
     @property
     def progress(self):

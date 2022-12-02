@@ -15,12 +15,12 @@ from __future__ import absolute_import
 import unittest
 
 import dap_annotation_service
-from dap_annotation_service.models.inline_response200_context_waiting import InlineResponse200ContextWaiting  # noqa: E501
+from dap_annotation_service.models.inline_response200_xstate_context import InlineResponse200XstateContext  # noqa: E501
 from dap_annotation_service.rest import ApiException
 
 
-class TestInlineResponse200ContextWaiting(unittest.TestCase):
-    """InlineResponse200ContextWaiting unit test stubs"""
+class TestInlineResponse200XstateContext(unittest.TestCase):
+    """InlineResponse200XstateContext unit test stubs"""
 
     def setUp(self):
         pass
@@ -28,10 +28,10 @@ class TestInlineResponse200ContextWaiting(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def testInlineResponse200ContextWaiting(self):
-        """Test InlineResponse200ContextWaiting"""
+    def testInlineResponse200XstateContext(self):
+        """Test InlineResponse200XstateContext"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = dap_annotation_service.models.inline_response200_context_waiting.InlineResponse200ContextWaiting()  # noqa: E501
+        # model = dap_annotation_service.models.inline_response200_xstate_context.InlineResponse200XstateContext()  # noqa: E501
         pass
 
 

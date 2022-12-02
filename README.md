@@ -131,9 +131,9 @@ Class | Method | HTTP request | Description
  - [InlineResponse200](docs/InlineResponse200.md)
  - [InlineResponse2001](docs/InlineResponse2001.md)
  - [InlineResponse2002](docs/InlineResponse2002.md)
- - [InlineResponse200Context](docs/InlineResponse200Context.md)
- - [InlineResponse200ContextProgress](docs/InlineResponse200ContextProgress.md)
- - [InlineResponse200ContextWaiting](docs/InlineResponse200ContextWaiting.md)
+ - [InlineResponse200XstateContext](docs/InlineResponse200XstateContext.md)
+ - [InlineResponse200XstateContextProgress](docs/InlineResponse200XstateContextProgress.md)
+ - [InlineResponse200XstateContextWaiting](docs/InlineResponse200XstateContextWaiting.md)
  - [InlineResponse404](docs/InlineResponse404.md)
 
 ## Documentation For Authorization

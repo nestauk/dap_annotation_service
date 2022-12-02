@@ -1,4 +1,4 @@
-# InlineResponse200ContextProgress
+# InlineResponse200XstateContextProgress
 
 ## Properties
 Name | Type | Description | Notes
