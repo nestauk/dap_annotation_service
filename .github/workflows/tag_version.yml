@@ -1,0 +1,18 @@
+name: Bump version
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # - uses: actions/checkout@v2
+      - name: curl
+        id: version
+        run: echo "version=`curl https://raw.githubusercontent.com/nestauk/dap_dv_backends/dev/src/services/annotation/version.txt`" >> $GITHUB_OUTPUT
+      - name: Bump version and push tag
+        id: tag_version
+        uses: mathieudutour/github-tag-action@v6.1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          custom_tag: ${{ steps.version.outputs.version }}
